@@ -1,16 +1,11 @@
 {
   "name": "test-cli-npx",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "main": "src/index.ts",
-  "bin": "src/index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "test-cli-npx": "./src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@12.11.2",
-  "type": "module"
+  "files": [
+    "src"
+  ]
 }
